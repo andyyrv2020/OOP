@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Cat myCat = new Cat();
+            Dog myDog = new Dog();
+
+            Trainer catTrainer = new Trainer(myCat);
+            Trainer dogTrainer = new Trainer(myDog);
+
+            Console.WriteLine("Cat Trainer:");
+            catTrainer.Make();
+
+            Console.WriteLine("\nDog Trainer:");
+            dogTrainer.Make();
         }
     }
 }

@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace AnimalKingdom
 {
-    internal class Trainer
+    public class Trainer
     {
+        private readonly IAnimal entity;
+
+        public Trainer(IAnimal animal)
+        {
+            entity = animal;
+        }
+
+        public void Make()
+        {
+            entity.Perform();
+        }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AnimalKingdom
 {
-    internal interface IMakeNoise
+    public interface IMakeNoise
     {
+        string MakeNoise();
     }
 }
