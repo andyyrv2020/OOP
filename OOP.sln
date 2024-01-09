@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresInterface", "Figures
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFarm", "AnimalFarm\AnimalFarm.csproj", "{04399D64-0856-44CB-A564-B681BF939762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonStudentId", "PersonStudentId\PersonStudentId.csproj", "{9B3BC67D-7D97-405B-87CA-4EFF116933CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentWorkerManagment", "StudentWorkerManagment\StudentWorkerManagment.csproj", "{84C34AB7-4813-450F-A08D-D0A4B738FE03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{04399D64-0856-44CB-A564-B681BF939762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04399D64-0856-44CB-A564-B681BF939762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04399D64-0856-44CB-A564-B681BF939762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3BC67D-7D97-405B-87CA-4EFF116933CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3BC67D-7D97-405B-87CA-4EFF116933CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3BC67D-7D97-405B-87CA-4EFF116933CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3BC67D-7D97-405B-87CA-4EFF116933CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
