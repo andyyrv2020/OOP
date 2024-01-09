@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresInterface", "FiguresInterface\FiguresInterface.csproj", "{A5149C66-D968-4077-951C-DCD5C402B14E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiguresInterface", "FiguresInterface\FiguresInterface.csproj", "{A5149C66-D968-4077-951C-DCD5C402B14E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFarm", "AnimalFarm\AnimalFarm.csproj", "{04399D64-0856-44CB-A564-B681BF939762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "AnimalFarm\AnimalFarm.csproj", "{04399D64-0856-44CB-A564-B681BF939762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonStudentId", "PersonStudentId\PersonStudentId.csproj", "{9B3BC67D-7D97-405B-87CA-4EFF116933CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonStudentId", "PersonStudentId\PersonStudentId.csproj", "{9B3BC67D-7D97-405B-87CA-4EFF116933CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentWorkerManagment", "StudentWorkerManagment\StudentWorkerManagment.csproj", "{84C34AB7-4813-450F-A08D-D0A4B738FE03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentWorkerManagment", "StudentWorkerManagment\StudentWorkerManagment.csproj", "{84C34AB7-4813-450F-A08D-D0A4B738FE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsInterface", "CarsInterface\CarsInterface.csproj", "{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C34AB7-4813-450F-A08D-D0A4B738FE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
