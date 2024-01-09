@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresInterface", "FiguresInterface\FiguresInterface.csproj", "{A5149C66-D968-4077-951C-DCD5C402B14E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFarm", "AnimalFarm\AnimalFarm.csproj", "{04399D64-0856-44CB-A564-B681BF939762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5149C66-D968-4077-951C-DCD5C402B14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5149C66-D968-4077-951C-DCD5C402B14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5149C66-D968-4077-951C-DCD5C402B14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5149C66-D968-4077-951C-DCD5C402B14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04399D64-0856-44CB-A564-B681BF939762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04399D64-0856-44CB-A564-B681BF939762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04399D64-0856-44CB-A564-B681BF939762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04399D64-0856-44CB-A564-B681BF939762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40A2FF27-1B6A-4637-B355-86F7A06DFC82}
+	EndGlobalSection
+EndGlobal
