@@ -8,6 +8,6 @@ namespace FiguresInterface
 {
     internal interface IDrawable
     {
-        IAsyncDisposable
+        void Draw();
     }
 }
