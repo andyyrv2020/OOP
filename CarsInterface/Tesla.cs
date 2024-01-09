@@ -26,5 +26,10 @@ namespace CarsInterface
         {
             return $"Break";
         }
+        public override string ToString()
+        {
+            return $"{Color} Tesla {Model} with {Batteries} Batteries";
+        }
+
     }
 }

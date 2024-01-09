@@ -10,8 +10,7 @@ namespace CarsInterface
     {
         public string Model { get; private set; }
         public string Color { get; private set; }
-        public Seat(string model, string color) {  Model = model; Color = color; }
-
+        public Seat(string model, string color) { Model = model; Color = color; }
         public string Start()
         {
             return $"Engine start";
@@ -20,6 +19,10 @@ namespace CarsInterface
         public string Stop()
         {
             return $"Break";
+        }
+        public override string ToString()
+        {
+            return $"{Color} Seat {Model}";
         }
     }
 }

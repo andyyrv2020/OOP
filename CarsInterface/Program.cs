@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            ICar seat = new Seat("Leon", "Grey");
-            ICar tesla = new Tesla("Model 3", "Red", 2);
+            ICar Seat = new Seat("Leon", "Grey");
+            ICar Tesla = new Tesla("Model 3", "Red", 2);
 
-            Console.WriteLine(seat.ToString());
-            Console.WriteLine(tesla.ToString());
+            Console.WriteLine(Seat.ToString());
+            Console.WriteLine(Tesla.ToString());
         }
     }
 }
