@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentWorkerManagment", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsInterface", "CarsInterface\CarsInterface.csproj", "{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{84A2CFE7-C3A0-4F04-9FD5-FF0A8A02A9FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBEFB1F-7298-4CBC-A50B-CD2DD3A2353C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A2CFE7-C3A0-4F04-9FD5-FF0A8A02A9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A2CFE7-C3A0-4F04-9FD5-FF0A8A02A9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A2CFE7-C3A0-4F04-9FD5-FF0A8A02A9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A2CFE7-C3A0-4F04-9FD5-FF0A8A02A9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
