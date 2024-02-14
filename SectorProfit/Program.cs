@@ -19,8 +19,9 @@
 		case "Sector D":
 			totalSum = GetTotalProfit(row, col, 8.40);
 			break;
+		}
+		Console.WriteLine($"{sector} profit is {totalSum:f2} lv.");
 	}
-	Console.WriteLine($"{sector} profit is {totalSum:f2} lv.");
 	static double GetTotalProfit(double row, double col, double price)
 	{
 		return row * col * price;

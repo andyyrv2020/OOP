@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalKingdom", "AnimalKing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLily", "SmartLily\SmartLily.csproj", "{043CB216-90E5-4F0A-B5FB-8E2D3E08CB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorProfit", "SectorProfit\SectorProfit.csproj", "{03B68FA2-F116-4E6D-9C26-26C5CFA7DB06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectorProfit", "SectorProfit\SectorProfit.csproj", "{03B68FA2-F116-4E6D-9C26-26C5CFA7DB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilySorting", "FamilySorting\FamilySorting.csproj", "{D2DF3439-B0A3-42C1-A900-2E12A4F4F6B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{03B68FA2-F116-4E6D-9C26-26C5CFA7DB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03B68FA2-F116-4E6D-9C26-26C5CFA7DB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03B68FA2-F116-4E6D-9C26-26C5CFA7DB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DF3439-B0A3-42C1-A900-2E12A4F4F6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DF3439-B0A3-42C1-A900-2E12A4F4F6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DF3439-B0A3-42C1-A900-2E12A4F4F6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DF3439-B0A3-42C1-A900-2E12A4F4F6B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
