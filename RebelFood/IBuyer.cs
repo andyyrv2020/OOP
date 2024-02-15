@@ -8,5 +8,7 @@ namespace RebelFood
 {
     interface IBuyer
     {
+        void BuyFood();
+        int Food { get; }
     }
 }
