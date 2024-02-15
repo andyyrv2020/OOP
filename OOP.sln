@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiguresInterface", "FiguresInterface\FiguresInterface.csproj", "{A5149C66-D968-4077-951C-DCD5C402B14E}"
 EndProject
@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectorProfit", "SectorProfi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilySorting", "FamilySorting\FamilySorting.csproj", "{D2DF3439-B0A3-42C1-A900-2E12A4F4F6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebelFood", "RebelFood\RebelFood.csproj", "{5C343987-CBF5-4E3F-8D3F-37765695A618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RebelFood", "RebelFood\RebelFood.csproj", "{5C343987-CBF5-4E3F-8D3F-37765695A618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{5C343987-CBF5-4E3F-8D3F-37765695A618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C343987-CBF5-4E3F-8D3F-37765695A618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C343987-CBF5-4E3F-8D3F-37765695A618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
