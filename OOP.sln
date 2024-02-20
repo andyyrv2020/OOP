@@ -31,7 +31,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOpera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFood", "AnimalFood\AnimalFood.csproj", "{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures", "Figures\Figures.csproj", "{1D338219-CB12-4E46-A66F-30F8510FCC1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasOfFigures", "Figures\AreasOfFigures.csproj", "{1D338219-CB12-4E46-A66F-30F8510FCC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTransport", "VehicleTransport\VehicleTransport.csproj", "{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{1D338219-CB12-4E46-A66F-30F8510FCC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D338219-CB12-4E46-A66F-30F8510FCC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D338219-CB12-4E46-A66F-30F8510FCC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
