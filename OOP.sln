@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyBirthday", "HappyBirth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFood", "AnimalFood\AnimalFood.csproj", "{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
