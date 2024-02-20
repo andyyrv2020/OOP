@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilySorting", "FamilySort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RebelFood", "RebelFood\RebelFood.csproj", "{5C343987-CBF5-4E3F-8D3F-37765695A618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorderControl", "BorderControl\BorderControl.csproj", "{1E3DDCC1-11E4-4885-B53F-C9C28EA3A47D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyBirthday", "HappyBirthday\HappyBirthday.csproj", "{EB95D3F9-FC56-443E-A5CB-F29934B67604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyBirthday", "HappyBirthday\HappyBirthday.csproj", "{EB95D3F9-FC56-443E-A5CB-F29934B67604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{EB95D3F9-FC56-443E-A5CB-F29934B67604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB95D3F9-FC56-443E-A5CB-F29934B67604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB95D3F9-FC56-443E-A5CB-F29934B67604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
