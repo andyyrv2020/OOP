@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreasOfFigures", "Figures\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTransport", "VehicleTransport\VehicleTransport.csproj", "{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsExample", "ThreadsExample\ThreadsExample.csproj", "{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsExample", "ThreadsExample\ThreadsExample.csproj", "{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsRacing", "ThreadsRacing\ThreadsRacing.csproj", "{0092BF0D-3E77-43CB-8455-4FF0A0FBE56F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsRacing", "ThreadsRacing\ThreadsRacing.csproj", "{0092BF0D-3E77-43CB-8455-4FF0A0FBE56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsCarProduction", "ThreadsCarProduction\ThreadsCarProduction.csproj", "{E7E3D8F6-2579-4DF2-8BC0-0A9D7F08B8C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{0092BF0D-3E77-43CB-8455-4FF0A0FBE56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0092BF0D-3E77-43CB-8455-4FF0A0FBE56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0092BF0D-3E77-43CB-8455-4FF0A0FBE56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E3D8F6-2579-4DF2-8BC0-0A9D7F08B8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E3D8F6-2579-4DF2-8BC0-0A9D7F08B8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E3D8F6-2579-4DF2-8BC0-0A9D7F08B8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E3D8F6-2579-4DF2-8BC0-0A9D7F08B8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
