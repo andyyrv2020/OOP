@@ -27,13 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorderControl", "BorderCont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyBirthday", "HappyBirthday\HappyBirthday.csproj", "{EB95D3F9-FC56-443E-A5CB-F29934B67604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "MathOperations\MathOperations.csproj", "{F14D2808-FD3F-4FBF-8DDD-17E494E72D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFood", "AnimalFood\AnimalFood.csproj", "{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFood", "AnimalFood\AnimalFood.csproj", "{A3AD3DA9-303B-4DF0-9984-CEB6061DE468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasOfFigures", "Figures\AreasOfFigures.csproj", "{1D338219-CB12-4E46-A66F-30F8510FCC1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreasOfFigures", "Figures\AreasOfFigures.csproj", "{1D338219-CB12-4E46-A66F-30F8510FCC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleTransport", "VehicleTransport\VehicleTransport.csproj", "{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleTransport", "VehicleTransport\VehicleTransport.csproj", "{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsExample", "ThreadsExample\ThreadsExample.csproj", "{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C25EB6-1B40-46B1-B33C-106F8C7ACC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6EE3A5-CF2B-47F0-BBAB-0FA2EE55E478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
