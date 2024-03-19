@@ -9,15 +9,15 @@ namespace Library
 {
     public class Book
     {
+        public string Title { get; }
+        public int Year { get; }
+        public List<string> Authors { get; }
+
         public Book(string title, int year, params string[] authors)
         {
-            this.Title = title;
-            this.Year = year;
-            this.Authors = authors;
+            Title = title;
+            Year = year;
+            Authors = new List<string>(authors);
         }
-        public string Title { get; set; }
-        public int Year { get; set; }
-        public IReadOnlyList<string> Authors { get; set; }
-
     }
 }
