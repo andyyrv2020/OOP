@@ -1,45 +1,53 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ListyIterator
+public class ListyIterator<T> : IEnumerable<T>
 {
-    public class ListyIterator<T>
+    private List<T> collection;
+    private int currentIndex;
+
+    public ListyIterator(IEnumerable<T> collection)
     {
-        private List<T> collection;
-        private int currentIndex;
+        this.collection = new List<T>(collection);
+        this.currentIndex = 0;
+    }
 
-        public ListyIterator(IEnumerable<T> collection)
+    public bool Move()
+    {
+        if (this.HasNext())
         {
-            this.collection = new List<T>(collection);
-            this.currentIndex = 0;
+            this.currentIndex++;
+            return true;
+        }
+        return false;
+    }
+
+    public bool HasNext()
+    {
+        return this.currentIndex < this.collection.Count - 1;
+    }
+
+    public void Print()
+    {
+        if (this.collection.Count == 0)
+        {
+            throw new InvalidOperationException("Invalid Operation!");
         }
 
-        public bool Move()
-        {
-            if (this.HasNext())
-            {
-                this.currentIndex++;
-                return true;
-            }
-            return false;
-        }
+        Console.WriteLine(this.collection[this.currentIndex]);
+    }
 
-        public bool HasNext()
+    public IEnumerator<T> GetEnumerator()
+    {
+        foreach (var item in collection)
         {
-            return this.currentIndex < this.collection.Count - 1;
+            yield return item;
         }
+    }
 
-        public void Print()
-        {
-            if (this.collection.Count == 0)
-            {
-                throw new InvalidOperationException("Invalid Operation!");
-            }
-
-            Console.WriteLine(this.collection[this.currentIndex]);
-        }
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return this.GetEnumerator();
     }
 }

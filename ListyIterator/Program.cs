@@ -1,6 +1,4 @@
-﻿using ListyIterator;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
@@ -21,6 +19,9 @@ class Program
                         break;
                     case "Print":
                         listyIterator.Print();
+                        break;
+                    case "PrintAll":
+                        Console.WriteLine(string.Join(" ", listyIterator));
                         break;
                 }
             }
