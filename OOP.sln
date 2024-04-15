@@ -41,17 +41,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsRacing", "ThreadsRac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsCarProduction", "ThreadsCarProduction\ThreadsCarProduction.csproj", "{E7E3D8F6-2579-4DF2-8BC0-0A9D7F08B8C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{91ACE11A-C903-411A-A0F8-5A7E0FC99EA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{91ACE11A-C903-411A-A0F8-5A7E0FC99EA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListyIterator", "ListyIterator\ListyIterator.csproj", "{3847C6E8-6D9A-4B41-80A3-C3C80AB288AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListyIterator", "ListyIterator\ListyIterator.csproj", "{3847C6E8-6D9A-4B41-80A3-C3C80AB288AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{94C33BD7-093E-4AE3-80B2-BBD0D769550C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj", "{94C33BD7-093E-4AE3-80B2-BBD0D769550C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frog", "Frog\Frog.csproj", "{A0524E29-4248-405E-B06D-773713F56AA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frog", "Frog\Frog.csproj", "{A0524E29-4248-405E-B06D-773713F56AA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalClinic", "AnimalClinic\AnimalClinic.csproj", "{E7E07210-2FA5-42B3-9FA4-77AF15D20DE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalClinic", "AnimalClinic\AnimalClinic.csproj", "{E7E07210-2FA5-42B3-9FA4-77AF15D20DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTraversal", "ListTraversal\ListTraversal.csproj", "{CEE56FB9-7C86-4544-B614-529BC7856682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListTraversal", "ListTraversal\ListTraversal.csproj", "{CEE56FB9-7C86-4544-B614-529BC7856682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasStation", "GasStation\GasStation.csproj", "{0C0DDF9F-AE61-476F-B4A1-547214165134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{CEE56FB9-7C86-4544-B614-529BC7856682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE56FB9-7C86-4544-B614-529BC7856682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE56FB9-7C86-4544-B614-529BC7856682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0DDF9F-AE61-476F-B4A1-547214165134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0DDF9F-AE61-476F-B4A1-547214165134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0DDF9F-AE61-476F-B4A1-547214165134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0DDF9F-AE61-476F-B4A1-547214165134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
