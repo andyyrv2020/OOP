@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparableObject", "ObjectC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyTemplate", "StrategyTemplate\StrategyTemplate.csproj", "{9BECD3D8-9B10-48F1-B584-B7A353741695}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityLogic", "IdentityLogic\IdentityLogic.csproj", "{30B5BAC0-0197-4E8C-B166-924FE37858EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{9BECD3D8-9B10-48F1-B584-B7A353741695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BECD3D8-9B10-48F1-B584-B7A353741695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BECD3D8-9B10-48F1-B584-B7A353741695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B5BAC0-0197-4E8C-B166-924FE37858EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B5BAC0-0197-4E8C-B166-924FE37858EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B5BAC0-0197-4E8C-B166-924FE37858EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B5BAC0-0197-4E8C-B166-924FE37858EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
